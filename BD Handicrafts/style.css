@@ -1,0 +1,244 @@
+* {
+    box-sizing: border-box;
+    font-family: Poppins;
+    margin: 0%;
+    padding: 0%;
+
+}
+
+body {
+    margin: 0;
+}
+
+a {
+
+    font-size: 1.2rem;
+    text-decoration: none;
+
+}
+
+.navbar {
+    font-family: Poppins;
+    background-color: lightblue;
+
+    height: 100px;
+    padding: 50px;
+    align-items: center;
+    display: flex;
+}
+
+.navbar ul {
+    margin-left: 500px;
+}
+
+.navbar ul li {
+    margin-right: 10px;
+    margin-left: 10px;
+
+}
+
+
+.navbar ul li a {
+    font-size: 1.3rem;
+    color: white;
+
+}
+
+.nav-item:hover {
+    background-color: red;
+
+}
+
+.nav-item {
+    background-color: black;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+
+/*navbar ends  */
+/* product info start */
+.carous {
+    width: 100%;
+    height: 600px;
+    background-color: whitesmoke;
+
+}
+
+.information {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.info {
+    margin-left: 150px;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+.info-image {
+    margin-right: 150px;
+}
+
+.prod-img {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* product info ends */
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.product-container {
+    padding: 50px 200px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 30px;
+
+
+}
+
+.bg-light {
+    background-image: url();
+    background-color: black;
+}
+
+
+
+.product-price-total {
+    background-color: rgb(209, 196, 178);
+    width: 350px;
+    margin-left: 100px;
+}
+
+.prod-card {
+    height: 350px;
+    width: 250px;
+    margin-top: 20px;
+    background-color: white;
+    margin-right: 40px;
+}
+
+.prod-card img {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+/* Upcoming product */
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cards .card {
+    margin: 100px;
+    border-radius: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    box-shadow: 5px 5px 5px 5px #333;
+
+}
+
+.upcoming {
+    margin-top: 40px;
+}
+
+.cards .card:hover {
+    transform: scale(1.2);
+    transition: .2s all ease;
+}
+
+/* Review */
+.rev .item img:hover {
+    transform: scale(1.5)
+}
+
+/* footer */
+.footer {
+
+    width: 100%;
+    padding: 100px 15%;
+    background: #333;
+    color: #efefef;
+    display: flex;
+
+}
+
+.footer div {
+    text-align: center;
+}
+
+.footer div h3 {
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+.col a {
+    display: block;
+    text-decoration: none;
+    color: #efefef;
+    margin-bottom: 10px;
+}
+
+.social-icons {
+    margin-top: 30px;
+}
+
+.social-icons i {
+    font-size: 30px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.col h3 {
+    color: yellow;
+}
+
+.set_quantity {
+    position: relative;
+}
+
+.set_quantity::after {
+    content: "(Note, 1 piece)";
+    width: auto;
+    height: auto;
+    text-align: center;
+    position: absolute;
+    bottom: -20px;
+    right: 1.5rem;
+    font-size: 0.8rem;
+}
+
+.page-link {
+    line-height: 16px;
+    width: 45px;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #495057;
+}
+
+.page-item input {
+    line-height: 22px;
+    padding: 3px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.page-link:hover {
+    text-decoration: none;
+    color: #495057;
+    outline: none !important;
+}
